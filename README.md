@@ -13,16 +13,17 @@ Add the following lines to the end of your ~/.bashrc or ~/.zshrc file:
 
 
 # Global Alias
+
 if [ -f /etc/.aliases ]; then
     . /etc/.aliases
 fi
-Create a new alias file in /etc/.aliases and add the aliases you want to use from the provided list:
 
+
+Create a new alias file in /etc/.aliases and add the aliases you want to use from the provided list:
 
 sudo nano /etc/.aliases
 
 Save the file and apply the changes by running:
-
 
 source ~/.bashrc  # or source ~/.zshrc
 
