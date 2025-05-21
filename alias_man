@@ -1,0 +1,77 @@
++-----------------------+--------------------------------------------------+---------------------------------+
+| Alias Name            | Command Description                              | Usage Example                   |
++-----------------------+--------------------------------------------------+---------------------------------+
+**Sudo Functions**      |                                                  |                                 |
+| AddA                  | Add a new alias to the alias file                | AddA                            |
+| Add-ip                | Add a new IP address to the hosts file           | Add-ip                          |
+| Clean                 | Autoremove unnecessary packages                  | Clean                           |
+| ClearLogs             | Removed system logs                              | ClearLogs                       |
+| Copy                  | Copy files with sudo privileges                  | Copy <source> <destination>     |
+| Dd                    | Run dd script that ask for in and out file path  | Dd                              |
+| Delete                | Delete a file with confirmation                  | Delete <file_path>              |
+| Disable               | Disable a service from starting at boot          | Disable <service_name>          |
+| Enable                | Enable a service to start at boot                | Enable <service_name>           |
+| Install               | Install a package                                | Install <package_name>          |
+| Kill                  | Kill a process by PID or name                    | Kill <var>                      |
+| List                  | List upgradable packages                         | List                            |
+| Logview               | View Journal logs                                | Logview                         |
+| Move                  | Move files with sudo privileges                  | Move <source> <destination>     |
+| Nano                  | Open a file in nano editor with sudo             | Nano <file_path>                |
+| Nvidia                | Displays Nvidia GPU every 6 sec                  | Nvidia                          |
+| Off                   | Shutdown the system                              | Off                             |
+| Permissions           | Displays file or directory info                  | Permissions                     |
+| Reboot                | Reboot the system                                | Reboot                          |
+| Remove                | Remove (purge) a package                         | Remove <package_name>           |
+| Restart               | Restart a system service                         | Restart <service_name>          |
+| Services              | Runs systemctl script with menu                  | Services                        |
+| Start                 | Start a system service                           | Start <service_name>            |
+| Startwire             | Start the pipewire service                       | Startwire                       |
+| Status                | Check the status of a system service             | Status <service_name>           |
+| Stop                  | Stop a system service                            | Stop <service_name>             |
+| Stopwire              | Stop the pipewire service                        | Stopwire                        |
+| Update                | Update package list                              | Update                          |
+| Upgrade               | Perform a full upgrade                           | Upgrade                         |
+| Ver                   | Find package version or install                  | Ver                             |
+| Watcher               | Start the Watcher script for file changes        | Watcher                         |
+|                       |                                                  |                                 |
+**User Functions**------+--------------------------------------------------+---------------------------------|
+| History               | Open the bash history file in nano               | History                         |
+| Ollama                | Runs Ollama with Deepseek                        | Ollama                          |
+| Udisable              | Disable a user service from starting at boot     | Udisable <service_name>         |
+| Uenable               | Enable a user service to start at boot           | Uenable <service_name>          |
+| Urestart              | Restart a user service                           | Urestart <service_name>         |
+| Ustart                | Start a user service                             | Ustart <service_name>           |
+| Ustatus               | Check status of a user service                   | Ustatus <service_name>          |
+| Ustop                 | Stop a user service                              | Ustop <service_name>            |
+|                       |                                                  |                                 |
+**General System Commands**------------------------------------------------+---------------------------------|
+| Alias                 | View the aliases manual                          | Alias                           |
+| C                     | Display CPU info using cpufetch                  | C                               |
+| Combine               | Combines all files to one file                   | Combine                         |
+| Compare               | Compares two files and shows the diffenece       | Compare                         |
+| Cron                  | Schedule cron jobs                               | Cron                            |
+| Disk                  | Show disk space and partitions                   | Disk                            |
+| Dusage                | Show folders with most usage                     | Dusage                          |
+| F                     | Display system information with neofetch         | F                               |
+| Filenames             | Prints the file names of Dir                     | Filenames                       |
+| Foldernames           | Prints the folder names in Dir                   | Foldernames                     |
+| FolderNum             | Creates labled number folders                    | FolderNum                       |
+| Qtop                  | Show Quick CPU usage                             | Qtop                            |
+| T                     | Start a tmux session                             | T                               |
+| -  Tatt               | Attach to an existing tmux session               | Tatt <session_name>             |
+| -  Tcomm              | View tmux commands                               | Tcomm                           |
+| -  Tkill              | Kill a specific tmux session                     | Tkill <session_name>            |
+| -  Tlist              | List all tmux sessions                           | Tlist                           |
+| -  Trename            | Rename a tmux session                            | Trename <old_name> <new_name>   |
+| top                   | Show htop                                        | top                             |
+| Wargames              | Start Wargames Movie Simulator                   | Wargames                        |
+|                       |                                                  |                                 |
+**SSH & Networking Commands**----------------------------------------------+---------------------------------|
+| Dig                   | DNS lookup tool                                  | Dig                             |
+| Dump                  | Menu for tcpdump                                 | Dump                            |
+| Net                   | Show network information                         | Net                             |
+| Nettools              | Runs network tools                               | Nettools                        |
+| Ping                  | Ping an IP address 5 times                       | Ping <ip_address>               |
+| Nmap                  | Run many nmap functions                          | Nmap                            |
+|                       |                                                  |                                 |
++-----------------------+--------------------------------------------------+---------------------------------+
