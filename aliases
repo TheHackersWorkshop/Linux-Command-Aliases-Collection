@@ -43,15 +43,20 @@ alias Sudo='sudo -i'
 alias top='htop'
 alias Update='sudo apt-get update'
 alias Upgrade='sudo apt full-upgrade -y'
+alias Vacuum='sudo journalctl --vacuum'
 alias Ver='/usr/local/bin/Version.sh'
 alias Watcher='sudo python3 /usr/local/bin/Watch.py'
 
 # User Commands
 alias Date='date "+%A %d %B %Y, %r"'
 alias History='nano $HOME/.bash_history'
+alias History='nano /home/david/.bash_history'
 alias Kill='/usr/local/bin/killproc.sh '
 alias Nano='sudo nano '
 alias Ollama='ollama run deepseek-r1'
+alias Ollamav='ollama run deepseek-r1 --verbose'
+alias Ollama1='ollama run wizard-vicuna-uncensored:13b'
+alias Ollama1v='ollama run wizard-vicuna-uncensored:13b --verbose'
 alias Startwire='start_pipewire.sh'
 alias Stopwire='stop_pipewire.sh'
 alias T='tmux'
@@ -75,8 +80,7 @@ alias Net='/usr/local/bin/Net.sh'
 alias Ping='ping -c 5'
 alias Dump='sudo python3 /usr/local/bin/dump.py'
 
-
 ## Custom Scripts
-alias Wargames='~/wargames/imsai8080-crt.sh'
 
 # New Alias
+
