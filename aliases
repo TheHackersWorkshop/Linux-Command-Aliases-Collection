@@ -50,7 +50,6 @@ alias Watcher='sudo python3 /usr/local/bin/Watch.py'
 # User Commands
 alias Date='date "+%A %d %B %Y, %r"'
 alias History='nano $HOME/.bash_history'
-alias History='nano /home/david/.bash_history'
 alias Kill='/usr/local/bin/killproc.sh '
 alias Nano='sudo nano '
 alias Ollama='ollama run deepseek-r1'
