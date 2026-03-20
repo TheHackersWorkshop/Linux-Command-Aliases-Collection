@@ -1,4 +1,7 @@
 # Linux-Command-Aliases-Collection
+
+## Just added a Arch and Fedora version for those not on a Debain system.
+
 This script provides a comprehensive set of aliases to streamline system administration, package management, file operations, networking, and user commands in Linux environments. It enhances efficiency by simplifying common commands and integrating useful scripts.
 
 Features:
